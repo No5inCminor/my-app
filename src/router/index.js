@@ -1,10 +1,12 @@
 import Vue from 'vue'
+import Vuex from 'vuex'
 import VueRouter from 'vue-router'
 import Test from '../components/Test.vue'
 import About from '../views/About.vue'
 // import Home from '../views/Home.vue'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
+Vue.use(Vuex)
 
   const routes = [
   {
